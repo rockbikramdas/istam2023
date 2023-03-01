@@ -24,7 +24,7 @@
                             <div class="m-2" style="text-align: center;font-size: 12px;">Hanumakonda - 506 004, Telangana State, INDIA</div>
                         </div>
                         <div class="">
-                            <span class="font-bold lg:hidden sticky">NIT WARANGAL</span>
+                            <span class="font-bold lg:hidden ">NIT WARANGAL</span>
                         </div>
                     </div>
                 </a>
@@ -40,11 +40,18 @@
         
         <div class="mt-2 mb-2 ">
             <div>
-                <ul id="menuBar" class="hidden lg:flex flex-col items-center lg:flex-row lg:w-full lg:justify-center lg:callFUn() font-semibold">
+                <ul id="menuBar" class="hidden lg:flex flex-col items-center lg:flex-row lg:w-full lg:justify-center  font-semibold">
                     <li class="p-2"><a href="/index.html"><span class="material-symbols-outlined">
                         home
                         </span></a></li>
-                    <li class="p-2 hover:text-rose-800 hover:"><a class="link-active" href="./topics.html">CALL FOR PAPERS</a></li>
+                    <li id="call_paper" class="relative inline-block p-2 hover:text-rose-800 ">
+                        <button id="dropbtn" class="peer" >CALL FOR PAPERS</button>
+                        <ul id="drop_menu" class="hidden px-2 absolute peer-hover:flex flex-col hover:flex w-full left-0 top-8 bg-blue-200">
+                            <li class="p-1 my-2 hover:bg-blue-400  text-md text-gray-900"><a  href="/pages/topics.html">Conference Topics</a></li>
+                            <li class="p-1 mb-2 hover:bg-blue-400 text-md text-gray-900"><a href="/pages/paperSubmission.html">Paper Submission</a></li>
+                        </ul>
+                    </li>
+
                     <li class="p-2 hover:text-rose-800 hover:"><a href="./dates.html">IMPORTANT DATES</a></li>
                     <li class="p-2 hover:text-rose-800 hover:"><a href="./schedule.html">PROGRAM SCHEDULE</a></li>
                     <li class="p-2 hover:text-rose-800 hover:"><a href="./speakers.html">SPEAKERS</a></li>
