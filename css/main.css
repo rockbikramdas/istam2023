@@ -2134,16 +2134,6 @@ max-width: 100%;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-@media (min-width: 640px) {
-  .sm\:flex {
-    display: flex;
-  }
-
-  .sm\:justify-center {
-    justify-content: center;
-  }
-}
-
 @media (min-width: 768px) {
   .md\:flex {
     display: flex;
@@ -2163,18 +2153,6 @@ max-width: 100%;
 
   .md\:w-3\/6 {
     width: 50%;
-  }
-
-  .md\:w-5\/12 {
-    width: 41.666667%;
-  }
-
-  .md\:w-2\/12 {
-    width: 16.666667%;
-  }
-
-  .md\:w-3 {
-    width: 0.75rem;
   }
 
   .md\:flex-row {
@@ -2254,10 +2232,6 @@ max-width: 100%;
 
   .lg\:w-full {
     width: 100%;
-  }
-
-  .lg\:max-w-full {
-    max-width: 100%;
   }
 
   .lg\:grid-cols-2 {

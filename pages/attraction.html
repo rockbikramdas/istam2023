@@ -10,57 +10,50 @@
   <body >
 
    
-    <header  class=" bg-gray-100 p-3 box-border h-auto lg:flex lg:flex-col lg:justify-center lg:items-center static">
-        <div class="flex flex-row justify-between items-stretch">
-            <div class="lg:hidden"></div>
-            <div class="">
-                <a class="banner_a  " href="https://www.nitw.ac.in/">
-                    <div class="banner_div">
-                        <div class=" hidden lg:block banner_logo">
-                            <img class="logo" src="../images/logo/logo-170x172.png" alt="nitw">                  
-                        </div>
-                        <div class="hidden lg:block">
-                            <div><h4 class="font-300 text-4xl">National Institute of Technology Warangal</h4></div>
-                            <div class="m-2" style="text-align: center;font-size: 12px;">Hanumakonda - 506 004, Telangana State, INDIA</div>
-                        </div>
-                        <div class="">
-                            <span class="font-bold lg:hidden sticky">NIT WARANGAL</span>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="justify-self-end">
-                <button id="menuButton" class="justify-self-end lg:hidden" onclick="collapseFun()" ><span class="material-symbols-outlined">menu</span></button>
-                
-            </div>
+    <header  class=" bg-red-100 p-3 ">
+        <div class="flex flex-col  ">            
+            <a class="flex flex-col  items-center" href="https://www.nitw.ac.in/">
+                <img class="hidden lg:block p-1 w-[110px] h-[110px]" src="../images/logo/logo-170x172.png" alt="nitw">                  
+                <div class="hidden lg:block">
+                    <h2 class="font-300 text-4xl text-center py-2">National Institute of Technology Warangal</h2>
+                    <h4 class="text-center py-1">Hanumakonda - 506 004, Telangana State, INDIA</h4>
+                </div>
+            </a>
+        </div>
+
+        <div class="lg:hidden grid grid-cols-6 "> 
+            <div class="  col-start-2 col-span-4 text-center"><a href="https://www.nitw.ac.in/">NIT WARANGAL</a></div>
+            <button id="menuButton" class="  lg:hidden  container mx-auto text-center"   onclick="collapseFun()" ><span class="material-symbols-outlined">menu</span></button>
         </div>
     
         
         
         
-        <div class="mt-2 mb-2 ">
-            <div>
-                <ul id="menuBar" class="hidden lg:flex flex-col items-center lg:flex-row lg:w-full lg:justify-center  font-semibold">
-                    <li class="p-2"><a href="/index.html"><span class="material-symbols-outlined">
-                        home
-                        </span></a></li>
-                    <li id="call_paper" class="relative inline-block p-2 hover:text-rose-800 ">
-                        <button id="dropbtn" class="peer" >CALL FOR PAPERS</button>
-                        <ul id="drop_menu" class="hidden px-2 absolute peer-hover:flex flex-col hover:flex w-full left-0 top-8 bg-blue-200">
-                            <li class="p-1 my-2 hover:bg-blue-400  text-md text-gray-900"><a  href="/pages/topics.html">Conference Topics</a></li>
-                            <li class="p-1 mb-2 hover:bg-blue-400 text-md text-gray-900"><a href="/pages/paperSubmission.html">Paper Submission</a></li>
+        <div id="bar" class="mt-2  ">
+                
+                <ul id="menuBar" class="hidden lg:flex flex-col items-center lg:flex-wrap lg:flex-row lg:w-full lg:justify-center  font-semibold ">
+               
+                    <a class="p-2"  href="/index.html"><span class="material-symbols-outlined">home</span></a></a>
+                    <div id="call_paper" class="group relative inline-block hover:flex hover:flex-col hover:items-center hover:justify-start   hover:cursor-pointer p-2 hover:border-red-600  hover:border-y-2 hover:pt-[6px] hover:pb-[6px]">
+                        CALL FOR PAPER
+                        <ul  class="hidden px-2 absolute hover:flex group-hover:flex flex-col  w-full  bg-red-200 shadow-2xl shadow-gray-500 ">
+                            <span class="text-center  border-red-600 border-b-2 pb-2">CALL FOR PAPER</span>
+                            <li class="p-1 my-2 hover:bg-blue-400  text-md text-gray-900" ><a  href="/pages/topics.html">Conference Topics</a></li>
+                            <li class="p-1 mb-2 hover:bg-blue-400 text-md text-gray-900"> <a href="/pages/paperSubmission.html">Paper Submission</a></li>
                         </ul>
-                    </li>
-
-                    <li class="p-2 hover:text-rose-800 hover:"><a href="./dates.html">IMPORTANT DATES</a></li>
-                    <li class="p-2 hover:text-rose-800 hover:"><a href="./schedule.html">PROGRAM SCHEDULE</a></li>
-                    <li class="p-2 hover:text-rose-800 hover:"><a href="./speakers.html">SPEAKERS</a></li>
-                    <li class="p-2 hover:text-rose-800 hover:"><a href="./registration.html">REGISTRATION</a></li>
-                    <li class="p-2 hover:text-rose-800 hover:"><a href="./accommodation.html">ACCOMMODATION</a></li>
-                    <li class="p-2 hover:text-rose-800 hover:"><a href="./attraction.html">ATTRACTION</a></li>
-                    <li class="p-2 hover:text-rose-800 hover:"><a href="./contact.html">CONTACT</a></li>
+                        
+                  </div>
+                    
+                        
+                    <a class="p-2 hover:pt-[6px] hover:pb-[6px] hover:border-red-600 hover:border-solid hover:border-y-2 "  href="/pages/dates.html">IMPORTANT DATES</a>
+                    <a class="p-2 hover:pt-[6px] hover:pb-[6px] hover:border-red-600 hover:border-solid hover:border-y-2 "  href="/pages/schedule.html">PROGRAM SCHEDULE</a>
+                    <a class="p-2 hover:pt-[6px] hover:pb-[6px] hover:border-red-600 hover:border-solid hover:border-y-2 "  href="/pages/speakers.html">SPEAKERS</a>
+                    <a class="p-2 hover:pt-[6px] hover:pb-[6px] hover:border-red-600 hover:border-solid hover:border-y-2 "  href="/pages/registration.html">REGISTRATION</a>
+                    <a class="p-2 hover:pt-[6px] hover:pb-[6px] hover:border-red-600 hover:border-solid hover:border-y-2 "  href="/pages/accommodation.html">ACCOMMODATION</a>
+                    <a class="p-2 hover:pt-[6px] hover:pb-[6px] hover:border-red-600 hover:border-solid hover:border-y-2 "  href="/pages/attraction.html">ATTRACTION</a>
+                    <a class="p-2 hover:pt-[6px] hover:pb-[6px] hover:border-red-600 hover:border-solid hover:border-y-2 "  href="/pages/contact.html">CONTACT</a>
                 </ul>
-            </div>
+            
         </div>
     </header>
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
