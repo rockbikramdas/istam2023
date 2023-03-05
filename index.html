@@ -24,17 +24,17 @@
                     ABOUT
                     <ul  class="hidden px-2 absolute z-10 hover:flex group-hover:flex flex-col  left-auto w-auto  bg-white shadow-2xl shadow-gray-500 ">
                         <span class="text-center  border-red-600 border-b-2 pb-2">ABOUT</span>
-                        <li class="p-1 my-2 hover:bg-blue-400 text-md text-gray-900"> <a href="/pages/memorial.html">MEMORIAL LECTURES</a></li>
-                        <li class="p-1 mb-2 hover:bg-blue-400  text-md text-gray-900" ><a  href="/pages/department.html">ORGANIZING DEPARTMENTS</a></li>
-                        <li class="p-1 mb-2 hover:bg-blue-400  text-md text-gray-900" ><a  href="/pages/committee.html">ORGANIZING COMMITTEE</a></li>
+                        <a class="p-1 my-2 hover:bg-blue-400 text-md text-gray-900" href="/pages/memorial.html">MEMORIAL LECTURES</a>
+                        <a class="p-1 mb-2 hover:bg-blue-400  text-md text-gray-900"  href="/pages/department.html">ORGANIZING DEPARTMENTS</a>
+                        <a class="p-1 mb-2 hover:bg-blue-400  text-md text-gray-900"  href="/pages/committee.html">ORGANIZING COMMITTEE</a>
                     </ul>
                 </div>
                 <div id="call_paper" class="group relative inline-block hover:flex hover:flex-col  hover:items-center hover:justify-start   hover:cursor-pointer p-2 hover:border-red-600  hover:border-y-2 hover:pt-[6px] hover:pb-[6px]">
                     CALL FOR PAPERS
                     <ul  class="hidden px-2 absolute z-10 hover:flex group-hover:flex flex-col left-auto w-auto  bg-white shadow-2xl shadow-gray-500 ">
                         <span class="text-center  border-red-600 border-b-2 pb-2">CALL FOR PAPERS</span>
-                        <li class="p-1 my-2 hover:bg-blue-400  text-md text-gray-900" ><a  href="/pages/topics.html">CONFERENCE TOPICS</a></li>
-                        <li class="p-1 mb-2 hover:bg-blue-400 text-md text-gray-900"> <a href="/pages/paperSubmission.html">PAPER SUBMISSION</a></li>
+                        <a class="p-1 my-2 hover:bg-blue-400  text-md text-gray-900"  href="/pages/topics.html">CONFERENCE TOPICS</a>
+                        <a class="p-1 mb-2 hover:bg-blue-400 text-md text-gray-900" href="/pages/paperSubmission.html">PAPER SUBMISSION</a>
                     </ul>
                 </div>
                 
@@ -51,19 +51,45 @@
         </nav>
     
     <!-- ------------------------------------------------------------ -->
-    
+        <style>
+            #banner{
+                background-image: url('/images/banner.png');
+                
+                background-position:center;
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+                
+                
+            }
+            @media only screen and (max-width:400px) {
+                #banner{
+                background-image: url('/images/banner.png');
+                
+                background-position:52%;
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+                
+                
+                }
+            }
+        </style>    
+
         <div class="relative max-w-full">
-            <img class=" max-w-full relative aspect-[3/2] sm:aspect-[4/2]  md:aspect-[4/2] lg:w-full lg:h-[100vh]"  src="/bg.png" alt="banner">
-            <div class="w-full max-w-full absolute top-[33.333%] left-[50%] -translate-x-1/2 -translate-y-1/3 flex flex-col items-center" >
-                <div class=" flex justify-evenly">
-                    <img class="w-24 h-24 mx-auto rounded-full" src="/images/logo/istam_log.png" alt="istam_logo">
-                    <img class="w-24 h-24 mx-auto rounded-full" src="/images/logo/logo-170x172.png" alt="istam_logo">
+            <!-- <img class="w-full opacity-70 relative aspect-[3/2] sm:aspect-[4/2]  md:aspect-[4/2] lg:aspect-[4/1] xl:aspect-[] 2xl:aspect-[]"  src="/images/banner.png" alt="banner"> -->
+            <div id="banner" class=" w-full  max-w-full  flex flex-col items-stretch" >
+                <div class=" flex justify-between items-center">
+                    <img class="w-24 h-24  rounded-full" src="/images/logo/istam_log.png" alt="istam_logo">
+                    <img class="w-24 h-24  rounded-full" src="/images/logo/logo-170x172.png" alt="istam_logo">
                 </div>
-                <h1 class="sm:my-2 text-yellow-200 text-md sm:text-2xl lg:text-3xl xl:text-4xl 2xl:text-6xl text-center">68th Congress of the <br>
-                Indian Society of Theoretical and Applied Mechanics</h1>
-                <h2 class=" text-white text-md sm:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl text-center">(An International Conference)</h2>
-                <h3 class="text-white text-sm sm:text-md lg:text-xl xl:text-2xl 2xl:text-3xl">December 07-09, 2023</h3>
-                <h3 class= " sm:my-4 text-white text-sm sm:text-md lg:text-xl xl:text-2xl 2xl:text-3xl text-center">Organized By National Institute of Technology Warangal </h3>
+                <h1 class="sm:my-2 text-yellow-200 text-md sm:text-2xl  lg:text-3xl xl:text-5xl 2xl:text-6xl text-center">68<sup>th</sup> Congress of the 
+                Indian Society of Theoretical and Applied Mechanics (ISTAM)</h1>
+                <h2 class=" text-white text-md sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl 2xl:text-5xl text-center">(An International Conference)</h2>
+                <h3 class="text-white text-sm sm:text-md lg:text-xl xl:text-2xl 2xl:text-3xl text-center">December 07-09, 2023</h3>
+                <h3 class= " sm:my-4 text-white text-sm sm:text-md lg:text-xl xl:text-2xl 2xl:text-3xl text-center">Organized By <br> National Institute of Technology Warangal </h3>
             </div>
 
         </div>
@@ -84,14 +110,14 @@
                             conditions. During the congress, five memorial lectures in honor of B.R. Seth, P.L. Bhatnagar, B. Karunesh, A.S. Gupta and G.I. Taylor are given by eminent researchers and also several invited lectures
                             are arranged to cover the current trends of various topics in Theoretical and Applied Mechanics. The Annual Congress of the Society has been held at various IITs, NITs, Universities, Engineering colleges
                             and other reputed research establishments in different parts of the country.</p>
-                        <a href="./pages/about.html"><div class="grid bg-blue-700 hover:bg-green-700 h-12 justify-evenly items-center"><span class="text-white">Read More</span></div></a>
+                        <a href="./pages/about.html"><div class="grid bg-blue-700 hover:bg-green-700 w-fit px-2 rounded-2xl h-12 justify-evenly items-center"><span class="text-white">Read More</span></div></a>
                     </div>
                     <div class="flex flex-col items-center justify-center min-w-fit py-6 lg:py-0">
                         <div class=" flex justify-center ">
                             <img class="  rounded-full w-24 h-24"    src="/images/istam/president.JPG" alt="istam_president">
                         </div>
                         <div class="  ">
-                            <p class=" p-6 "><b >President</b> <br>
+                            <p class=" p-6 text-center"><b >President</b> <br>
                                 Prof. I. S. Shivakumara, FNASc.,<br>
                                 Formerly Prof. of Mathematics,<br>
                                 Dean (FS) & Vice-Chancellor,<br> Bangalore University,<br>
@@ -100,7 +126,36 @@
                         </div>
                 </div>
         </section>
-        <section class=" bg-gray-100">
+        <section class=" bg-gray-200 flex flex-col items-center">
+            <div class="p-6 pb-0 mb-2 lg:mb-5 grid grid-cols-1 "><h1 class="justify-self-center text-center text-2xl 2xl:text-3xl lg:mb-5">ABOUT NIT WARANGAL</h1></div>
+        
+                <div class=" flex flex-col w-11/12 sm:w-9/12 md:flex-row  mx-4 ">
+                    <div class="p-3 ">
+                        <p class="pb-3 md:text-sm lg:text-base 2xl:text-xl text-justify ">NIT Warangal is a public technical and research university located in
+                            Warangal, Telangana State, India. It is recognized as an Institute of
+                            National Importance by the Government of India. The foundation
+                            stone for this institute was laid by the then Prime Minister
+                            Jawaharlal Nehru in 1959, the first in the chain of 31 NITs (formerly
+                            known as RECs) in the country. The institute was renamed as the
+                            National Institute of Technology, Warangal in 2002. The Institute
+                            organized the 23rd and 44th ISTAMs in the years 1978 and 1999,
+                            respectively</p>
+                        
+                    </div>
+                    <div class="flex flex-col items-center justify-center min-w-fit py-6 mx-8 lg:py-0">
+                        <div class=" flex justify-center ">
+                            <img class="  rounded-full w-24 h-24"    src="/images/committee/Director.jpg" alt="director">
+                        </div>
+                        <div class="  ">
+                            <p class=" p-6 text-center"><b >Director</b> <br>
+                                Prof. N.V. Ramana Rao,<br>
+                                Director ,<br>
+                                NIT Warangal</p>
+                            </p>    
+                        </div>
+                </div>
+        </section>
+        <!-- <section class=" bg-gray-100">
             <div class="p-6  pb-0 grid grid-cols-1 "><h1 class="justify-self-center text-center text-2xl 2xl:text-3xl lg:mb-5">ABOUT NIT WARANGAL<h1>
             </div>
 
@@ -118,10 +173,10 @@
                             respectively.</p>
                     </div>
                     <div class="w-3/5 lg:w-1/3 lg:ml-5 flex flex-col border border-gray-900 border-2  items-center mb-4 lg:mb-0 lg:order-last">
-                        <div class="flex lg:justify-center "><img class="rounded-full" src="./images/committee/Director.jpg" width="150px" height="150px" alt="director"></div>
+                        <div class="flex lg:justify-center "><img class="rounded-full w-24 h-24" src="./images/committee/Director.jpg" width="150px" height="150px" alt="director"></div>
                         <div class="p-2 flex flex-col justify-center ">
-                            <h4><b>Director</b></h4>
-                            <p>
+                            <h4 class="text-center"><b>Director</b></h4>
+                            <p class="text-center">
                                 Prof. N.V. Ramana Rao,<br>
                                 Director ,<br>
                                 NIT Warangal</p>
@@ -129,7 +184,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         
     <!-- ------------------------------------------------------------ -->
@@ -138,14 +193,7 @@
         <div class="flex flex-col bg-gray-700 text-white lg:flex-row justify-evenly">
             <!-- about -->
             <div class="p-2 lg:w-5/12">
-                <!-- ABOUT ISTAM -->
-                <h3 class="text-2xl p-2">ABOUT ISTAM</h3>
-                <hr >
-                <div class="p-2">
-                    <p class="p-2 text-justify">The ISTAM was established in 1955 by the think tanks of the post independent India with its headquarters at IIT, Kharagpur. The society was formed with the idea of providing a common platform to the
-                        scientists, technologists and the engineers to share and discuss the current research work conducted by them individually or in groups to seek the solutions to the emerging problems for better living
-                        conditions.</p>
-                </div>
+                
                 <!-- NITW CONTACTS -->
                 <div class="">
                     <h3 class="text-2xl p-2">NITW CONTACTS</h3>
