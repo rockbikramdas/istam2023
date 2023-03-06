@@ -55,41 +55,23 @@
             #banner{
                 background-image: url('/images/banner.png');
                 
-                background-position:center;
-                background-attachment: fixed;
-                background-repeat: no-repeat;
-                background-size: cover;
-                position: relative;
-                
-                
             }
-            @media only screen and (max-width:400px) {
-                #banner{
-                background-image: url('/images/banner.png');
-                
-                background-position:52%;
-                background-attachment: fixed;
-                background-repeat: no-repeat;
-                background-size: cover;
-                position: relative;
-                
-                
-                }
-            }
+            
         </style>    
 
-        <div class="relative max-w-full">
+        <div id="banner"  class=" relative max-w-full bg-top bg-fixed  bg-no-repeat bg-[length:640px_250px] sm:bg-[length:778px_350px] md:bg-[length:1200px_350px]
+                                lg:bg-[length:1440px_500px] xl:bg-[length:1778px_550px] 2xl:bg-[length:1920px_600px] 3xl:bg-cover">
             <!-- <img class="w-full opacity-70 relative aspect-[3/2] sm:aspect-[4/2]  md:aspect-[4/2] lg:aspect-[4/1] xl:aspect-[] 2xl:aspect-[]"  src="/images/banner.png" alt="banner"> -->
-            <div id="banner" class=" w-full  max-w-full  flex flex-col items-stretch" >
+            <div  class="p-2 w-full  bg-gray-900 bg-opacity-50 max-w-full  flex flex-col justify-center items-stretch" >
                 <div class=" flex justify-between items-center">
-                    <img class="w-24 h-24  rounded-full" src="/images/logo/istam_log.png" alt="istam_logo">
-                    <img class="w-24 h-24  rounded-full" src="/images/logo/logo-170x172.png" alt="istam_logo">
+                    <img class="  rounded-full" width="7%" src="/images/logo/istam_log.png" alt="istam_logo">
+                    <img class="  " width="7%" src="/images/logo/logo-170x172.png" alt="istam_logo">
                 </div>
-                <h1 class="sm:my-2 text-yellow-200 text-md sm:text-2xl  lg:text-3xl xl:text-5xl 2xl:text-6xl text-center">68<sup>th</sup> Congress of the 
+                <h1 class="sm:my-2 text-yellow-300 text-md sm:text-2xl  lg:text-3xl xl:text-5xl 2xl:text-6xl text-center animate-pulse">68<sup>th</sup> Congress of the 
                 Indian Society of Theoretical and Applied Mechanics (ISTAM)</h1>
                 <h2 class=" text-white text-md sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl 2xl:text-5xl text-center">(An International Conference)</h2>
-                <h3 class="text-white text-sm sm:text-md lg:text-xl xl:text-2xl 2xl:text-3xl text-center">December 07-09, 2023</h3>
-                <h3 class= " sm:my-4 text-white text-sm sm:text-md lg:text-xl xl:text-2xl 2xl:text-3xl text-center">Organized By <br> National Institute of Technology Warangal </h3>
+                <h3 class="text-white text-sm sm:text-md lg:text-xl xl:text-2xl 2xl:text-3xl text-center hover:animate-bounce">December 07-09, 2023</h3>
+                <h3 class= " sm:my-4 text-white text-sm sm:text-md lg:text-xl xl:text-2xl 2xl:text-4xl text-center">Organized By <br> National Institute of Technology Warangal </h3>
             </div>
 
         </div>
@@ -179,7 +161,7 @@
             <!-- map -->
             <div class="p-2  lg:w-5/12  ">
                 <div>
-                    <h3 class="p-2 text-2xl text-white">OUR CAMPUS</h3><hr>
+                    <h3 class="p-2 text-2xl text-white">NITW CAMPUS</h3><hr>
                     
                 </div>
                 <div class=" p-2 md:w-10/12 lg:w-full">
