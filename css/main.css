@@ -1000,6 +1000,10 @@ input[type="range"]::-ms-fill-lower {
   margin-top: 1rem;
 }
 
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -1258,11 +1262,6 @@ input[type="range"]::-ms-fill-lower {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-blue-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(35 56 118 / var(--tw-bg-opacity));
-}
-
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
 }
@@ -1364,18 +1363,6 @@ input[type="range"]::-ms-fill-lower {
   text-align: justify;
 }
 
-.font-serif {
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-}
-
-.font-mono {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-}
-
-.font-sans {
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1401,25 +1388,12 @@ input[type="range"]::-ms-fill-lower {
   line-height: 1.75rem;
 }
 
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
 .font-bold {
   font-weight: 700;
 }
 
 .font-semibold {
   font-weight: 600;
-}
-
-.font-medium {
-  font-weight: 500;
-}
-
-.font-black {
-  font-weight: 900;
 }
 
 .italic {
@@ -1429,6 +1403,11 @@ input[type="range"]::-ms-fill-lower {
 .text-blue-500 {
   --tw-text-opacity: 1;
   color: rgb(63 131 248 / var(--tw-text-opacity));
+}
+
+.text-blue-900 {
+  --tw-text-opacity: 1;
+  color: rgb(35 56 118 / var(--tw-text-opacity));
 }
 
 .text-emerald-700 {
@@ -1476,14 +1455,9 @@ input[type="range"]::-ms-fill-lower {
   color: rgb(250 202 21 / var(--tw-text-opacity));
 }
 
-.text-red-300 {
+.text-red-600 {
   --tw-text-opacity: 1;
-  color: rgb(248 180 180 / var(--tw-text-opacity));
-}
-
-.text-red-700 {
-  --tw-text-opacity: 1;
-  color: rgb(200 30 30 / var(--tw-text-opacity));
+  color: rgb(224 36 36 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -1773,6 +1747,10 @@ max-width: 100%;
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
@@ -1835,6 +1813,10 @@ max-width: 100%;
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
+  .xl\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .xl\:bg-\[length\:1778px_450px\] {
     background-size: 1778px 450px;
   }
@@ -1875,6 +1857,10 @@ max-width: 100%;
 
   .\32xl\:grid-cols-6 {
     grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
+  .\32xl\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .\32xl\:bg-\[length\:1920px_450px\] {
