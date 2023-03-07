@@ -909,6 +909,38 @@ input[type="range"]::-ms-fill-lower {
   left: auto;
 }
 
+.top-20 {
+  top: 5rem;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.top-10 {
+  top: 2.5rem;
+}
+
+.top-9 {
+  top: 2.25rem;
+}
+
+.top-12 {
+  top: 3rem;
+}
+
+.top-96 {
+  top: 24rem;
+}
+
+.top-24 {
+  top: 6rem;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -1345,6 +1377,10 @@ input[type="range"]::-ms-fill-lower {
   background-color: rgb(3 105 161 / var(--tw-bg-opacity));
 }
 
+.bg-transparent {
+  background-color: transparent;
+}
+
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
 }
@@ -1433,6 +1469,16 @@ input[type="range"]::-ms-fill-lower {
   padding-right: 0.75rem;
 }
 
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .pb-0 {
   padding-bottom: 0px;
 }
@@ -1497,6 +1543,11 @@ input[type="range"]::-ms-fill-lower {
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-bold {
@@ -1714,6 +1765,26 @@ max-width: 100%;
 .hover\:shadow-red-700\/50:hover {
   --tw-shadow-color: rgb(200 30 30 / 0.5);
   --tw-shadow: var(--tw-shadow-colored);
+}
+
+.hover\:before\:content-\[\]:hover::before {
+  --tw-content: ;
+  content: var(--tw-content);
+}
+
+.hover\:before\:content-\[\'H\'\]:hover::before {
+  --tw-content: 'H';
+  content: var(--tw-content);
+}
+
+.hover\:before\:content-\[\'Hovering\'\]:hover::before {
+  --tw-content: 'Hovering';
+  content: var(--tw-content);
+}
+
+.hover\:before\:content-\[\'flex\'\]:hover::before {
+  --tw-content: 'flex';
+  content: var(--tw-content);
 }
 
 .group:hover .group-hover\:flex {
